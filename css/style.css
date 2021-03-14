@@ -169,7 +169,7 @@ label {
 .footer-bottom {
     overflow: hidden;
     padding: 5px 0;
-    font-size: 7px
+    font-size: 7.598px;
 }
 
 .footer-area hr {
@@ -192,8 +192,6 @@ label {
 float: right;
 }
 
-/*### 3.2 Footer Top ###*/
-
 .footer-top ul li {
     margin-right: 12px;
 }
@@ -212,17 +210,15 @@ float: right;
     font-size: 0;
 }
 
-/*### 3.3 Footer Bottom ###*/
-
 .footer-bottom ul {
     width: 100%;
 }
 
 .footer-bottom ul li {
     margin-right: 0;
-    width: 6%;
+    width: 7.14284714%;
     float: left;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 
@@ -288,9 +284,9 @@ float: right;
     }
     .footer-bottom ul li {
         margin-right: 0;
-        width: 14.2%;
+        width: 14.2857143%;
         float: left;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
 }
 
@@ -338,9 +334,9 @@ float: right;
     }
     .footer-bottom ul li {
         margin-right: 0;
-        width: 14.2%;
+        width: 14.2857143%;
         float: left;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
 }
 
@@ -390,8 +386,8 @@ float: right;
     }
     .footer-bottom ul li {
         margin-right: 0;
-        width: 14.2%;
+        width: 14.2857143%;
         float: left;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
 }
