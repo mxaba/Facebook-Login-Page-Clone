@@ -103,7 +103,7 @@ header {
     color: #1877F2;
 }
 
-.login-area .c-account {
+.login-area .create-account {
     background-color: #42B72A;
     width: 55%;
     margin: 20px auto 10px;
@@ -112,9 +112,9 @@ header {
     border-radius: 6px;
 }
 
-.login-area .c-page {
+.login-area .create-page {
     display: inline;
-    color: black;
+    color: rgb(34, 34, 34);
     font-weight: lighter;
 }
 
@@ -257,6 +257,7 @@ float: right;
         padding: 40px 20px;
         box-shadow: 0 0 20px lightgray;
         background-color: white;
+        margin-bottom: 4%;
     }
     .seperator, .right, .left {
         display: none;
@@ -268,6 +269,7 @@ float: right;
     }
     #screenhr {
         opacity: 100%;
+        margin-top: -3.9%;
     }
     label {
         font-size: 0;
@@ -316,6 +318,7 @@ float: right;
         width: 350px;
         box-shadow: 0 0 20px lightgray;
         background-color: white;
+        margin-bottom: 4%;
     }
     .seperator, .right, .left {
         display: none;
@@ -325,7 +328,7 @@ float: right;
     }
     #screenhr {
         opacity: 100%;
-
+        margin-top: -3.9%;
     }
     label {
         font-size: 0;
@@ -365,12 +368,13 @@ float: right;
         width: 90%;
         box-shadow: 0 0 20px lightgray;
         background-color: white;
+        margin-bottom: 4%;
     }
     .logo-area {
         margin-top: 0;
     }
 
-    .c-account {
+    .create-account {
         padding: 15px 20px;
     }
 
@@ -383,7 +387,7 @@ float: right;
     }
     #screenhr {
         opacity: 100%;
-
+        margin-top: -3.9%;
     }
     label {
         font-size: 0;
