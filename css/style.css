@@ -13,7 +13,7 @@ header {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 
 }
@@ -26,6 +26,7 @@ header {
 
 .logo-area {
     margin-right: 40px;
+    margin-top: -10%;
 }
 
 .logo-area img {
@@ -124,7 +125,7 @@ header {
 
 
 .footer-area .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     max-width: 960px;
 }
@@ -141,6 +142,7 @@ label {
 .footer-area {
     font-family: tahoma;
     font-size: 12px;
+    margin-top: 3%;
 }
 
 .footer-area ul li {
@@ -167,6 +169,7 @@ label {
 .footer-bottom {
     overflow: hidden;
     padding: 5px 0;
+    font-size: 7px
 }
 
 .footer-area hr {
@@ -205,6 +208,10 @@ float: right;
     background: #D8DDEB;
 }
 
+.copyright {
+    font-size: 0;
+}
+
 /*### 3.3 Footer Bottom ###*/
 
 .footer-bottom ul {
@@ -213,21 +220,11 @@ float: right;
 
 .footer-bottom ul li {
     margin-right: 0;
-    width: 10%;
+    width: 6%;
+    float: left;
     margin-bottom: 5px;
 }
 
-.copyright p {
-    margin: 15px 0 0 0;
-    padding-bottom: 4px;
-    color: #A497AD;
-}
-
-.copyright a {
-    text-decoration: none;
-    color: #8A8D91;
-    padding-bottom: 20px;
-}
 
 @media only screen and (max-width: 992px) {
     .flex-item {
@@ -237,6 +234,7 @@ float: right;
     .logo-area {
         margin-right: 0;
         text-align: center;
+        margin-top: 0;
     }
 
     .logo-area img {
@@ -271,9 +269,36 @@ float: right;
     label {
         font-size: 0;
     }
+    .copyright p {
+        margin: 0px 0 15px 0;
+        padding-bottom: 4px;
+        color: grey;
+        font-size: 10px;
+    }
+    
+    .copyright a {
+        text-decoration: none;
+        color: grey;
+        padding-bottom: 20px;
+    }
+
+    .footer-top, 
+    .footer-bottom {
+        font-size: 10px
+    }
+    .footer-bottom ul li {
+        margin-right: 0;
+        width: 14.2%;
+        float: left;
+        margin-bottom: 5px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .logo-area {
+        margin-top: 0;
+    }
+
     .logo-area p {
         width: 100%;
     }
@@ -296,6 +321,27 @@ float: right;
     label {
         font-size: 0;
     }
+    .copyright p {
+        margin: 15px 0 0 0;
+        padding-bottom: 4px;
+        color: grey;
+    }
+    
+    .copyright a {
+        text-decoration: none;
+        color: grey;
+        padding-bottom: 20px;
+    }
+    .footer-top, 
+    .footer-bottom {
+        font-size: 10px
+    }
+    .footer-bottom ul li {
+        margin-right: 0;
+        width: 14.2%;
+        float: left;
+        margin-bottom: 5px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -303,6 +349,9 @@ float: right;
         width: 90%;
         box-shadow: 0 0 20px lightgray;
         background-color: white;
+    }
+    .logo-area {
+        margin-top: 0;
     }
 
     .c-account {
@@ -322,5 +371,27 @@ float: right;
     }
     label {
         font-size: 0;
+    }
+    .copyright p {
+        margin: 15px 0 0 0;
+        padding-bottom: 4px;
+        color: grey;
+    }
+    
+    .copyright a {
+        text-decoration: none;
+        color: grey;
+        padding-bottom: 20px;
+    }
+
+    .footer-top, 
+    .footer-bottom {
+        font-size: 10px
+    }
+    .footer-bottom ul li {
+        margin-right: 0;
+        width: 14.2%;
+        float: left;
+        margin-bottom: 5px;
     }
 }
